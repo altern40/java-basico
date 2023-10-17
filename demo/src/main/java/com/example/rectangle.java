@@ -2,14 +2,14 @@ package com.example;
 
 public class rectangle {
     int width;
-    int heigh;
+    int height;
 
     rectangle(int w, int h){
         width = w;
-        heigh = h;
+        height = h;
     }
 
     int areaCalc() {
-        return width * heigh;
+        return width * height;
     }
 }

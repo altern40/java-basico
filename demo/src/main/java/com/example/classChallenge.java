@@ -1,7 +1,7 @@
 package com.example;
 
 public class classChallenge {
-    private int value1;
+    private final int value1;
 
 
     public classChallenge(int v){
